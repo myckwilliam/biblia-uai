@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-label="Pão de queijo">
+  <g fill="none" stroke="#111111" stroke-linecap="round" opacity=".28">
+    <path d="M250 120 C 235 95, 265 80, 250 55" stroke-width="8"/>
+    <path d="M320 105 C 305 80, 335 65, 320 40" stroke-width="8"/>
+    <path d="M390 120 C 375 95, 405 80, 390 55" stroke-width="8"/>
+  </g>
+
+  <g stroke="#111111" stroke-linejoin="round">
+    <ellipse cx="215" cy="330" rx="98" ry="88" fill="#D98E3E" stroke-width="14"/>
+    <ellipse cx="425" cy="320" rx="92" ry="85" fill="#D98E3E" stroke-width="14"/>
+    <path d="M172 390 C 168 315, 220 262, 318 260 C 410 258, 470 312, 468 392 C 466 468, 410 520, 318 520 C 222 521, 176 468, 172 390 Z" fill="#E8A24A" stroke-width="16"/>
+  </g>
+
+  <g fill="none" stroke-linecap="round">
+    <path d="M180 315 C 195 305, 210 307, 222 316" stroke="#111111" stroke-width="8"/>
+    <path d="M395 305 C 410 296, 425 298, 438 307" stroke="#111111" stroke-width="8"/>
+    <path d="M140 310 C 158 294, 180 288, 200 288" stroke="#FFD9A0" stroke-width="9" opacity=".7"/>
+    <path d="M360 292 C 378 280, 398 278, 414 282" stroke="#FFD9A0" stroke-width="9" opacity=".7"/>
+    <path d="M235 330 C 255 300, 285 282, 315 278" stroke="#FFD9A0" stroke-width="14" opacity=".8"/>
+  </g>
+
+  <g stroke="#111111" stroke-linejoin="round">
+    <path d="M250 330 C 265 315, 290 318, 295 335 C 300 352, 275 360, 258 350 Z" fill="#FFE08A" stroke-width="6"/>
+    <path d="M330 325 C 344 310, 368 312, 374 330 C 380 348, 354 356, 338 346 Z" fill="#FFE08A" stroke-width="6"/>
+    <path d="M366 392 C 380 380, 402 384, 406 402 C 410 420, 386 426, 370 414 Z" fill="#FFE08A" stroke-width="6"/>
+  </g>
+
+  <g fill="none" stroke="#111111" stroke-linecap="round" stroke-width="10">
+    <path d="M230 346 C 245 336, 255 336, 268 343 C 278 349, 288 347, 298 339"/>
+    <path d="M330 326 C 342 316, 354 316, 366 325 C 376 333, 386 331, 398 323"/>
+    <path d="M360 391 C 372 381, 384 383, 394 391 C 404 399, 414 397, 424 389"/>
+  </g>
+
+  <g fill="#B8732F" opacity=".8">
+    <circle cx="240" cy="390" r="5"/>
+    <circle cx="285" cy="430" r="6"/>
+    <circle cx="330" cy="455" r="4"/>
+    <circle cx="390" cy="425" r="5"/>
+    <circle cx="420" cy="370" r="4"/>
+    <circle cx="310" cy="370" r="4"/>
+    <circle cx="445" cy="425" r="5"/>
+    <circle cx="210" cy="430" r="4"/>
+  </g>
+
+  <g stroke="#111111" stroke-width="4">
+    <circle cx="150" cy="520" r="10" fill="#E9B949"/>
+    <circle cx="478" cy="535" r="8" fill="#E9B949"/>
+    <circle cx="505" cy="505" r="6" fill="#FFE08A"/>
+    <circle cx="122" cy="500" r="5" fill="#FFE08A"/>
+  </g>
+</svg>

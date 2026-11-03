@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bíblia Uai — a Sagrada Escritura em mineirês</title>
+  <meta name="description" content="A Bíblia contada por um mineiro que num tem pressa. Uma edição de bolso em mineirês, feita com carinho, café e pão de queijo.">
+  <meta name="theme-color" content="#ffd23f">
+  <meta property="og:title" content="Bíblia Uai">
+  <meta property="og:description" content="A Sagrada Escritura contada por um mineiro que num tem pressa.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://myckwilliam.github.io/biblia-uai/">
+  <meta property="og:image" content="https://myckwilliam.github.io/biblia-uai/assets/img/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Capa da Bíblia Uai, com o título em amarelo e rosa e os stickers de chapéu e pão de queijo.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/img/icon-512.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/img/icon-512.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Mono:wght@400;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css?v=2">
+</head>
+<body>
+  <a class="skip-link" href="#ler">Pula pro causo</a>
+
+  <header class="topbar">
+    <a class="brand" href="#inicio">
+      <span class="brand-mark" aria-hidden="true">BU</span>
+      <span class="brand-word">Bíblia <em>Uai</em></span>
+    </a>
+    <nav class="nav" aria-label="Navegação principal">
+      <a href="#ler">Ler</a>
+      <a href="#do-dia">Do dia</a>
+      <a href="#livros">Livros</a>
+      <a href="#sobre">Sobre</a>
+    </nav>
+    <span class="edition-tag">edição de bolso</span>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow">Causo antigo, prosa nova</p>
+        <h1>A Bíblia contada por um mineiro que <span class="highlight">num tem pressa.</span></h1>
+        <p class="lede">Pega um café, puxa um banco e vem ler a Sagrada Escritura no miudinho, do jeito que mineiro conta causo: devagar, com graça e sem perder a fé.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#ler">Puxa um banco e vem ler <span aria-hidden="true">→</span></a>
+          <button class="btn btn-ghost" type="button" id="hero-random">Me dá um versículo</button>
+        </div>
+        <p class="hero-note">219 versículos &middot; 19 livros &middot; <span class="uai">uai</span> incluso</p>
+      </div>
+
+      <div class="hero-art">
+        <img class="sticker sticker-hat" src="assets/img/chapeu-de-palha.png" alt="" aria-hidden="true">
+        <img class="sticker sticker-cheese" src="assets/img/pao-de-queijo.png" alt="" aria-hidden="true">
+        <div class="art-card" aria-hidden="true">
+          <span class="art-kicker">Bença, Deus</span>
+          <div class="art-word">UAI</div>
+          <p class="art-quote">“O Senhor é meu pastor.<br>Num me falta nada, não.”</p>
+          <span class="art-ref">SALMO 23:1</span>
+          <span class="art-stamp">100%<br>mineiro</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <div class="ticker-group">
+          <span>UAI</span><span>★</span><span>TREM BÃO</span><span>★</span><span>PÃO DE QUEIJO</span><span>★</span><span>CAFÉ PASSADO</span><span>★</span><span>BENZA DEUS</span><span>★</span><span>SEM PRESSA</span><span>★</span>
+        </div>
+        <div class="ticker-group">
+          <span>UAI</span><span>★</span><span>TREM BÃO</span><span>★</span><span>PÃO DE QUEIJO</span><span>★</span><span>CAFÉ PASSADO</span><span>★</span><span>BENZA DEUS</span><span>★</span><span>SEM PRESSA</span><span>★</span>
+        </div>
+      </div>
+    </div>
+
+    <section class="section dedication" id="dedicatoria">
+      <div class="dedication-card">
+        <span class="dedication-stamp">pra ocê</span>
+        <p class="eyebrow">Um recado antes da prosa</p>
+        <h2>Pra <span data-config="nome">minha amiga mineira</span>, com carinho e café.</h2>
+        <p data-config="recado">Que a cirurgia passe leve, que o susto vá embora rápido e que a recuperação seja mansa, regada a café fresquinho e pão de queijo quentinho. Ocê é mais forte do que imagina, e tem muita gente torcendo por ocê.</p>
+        <p class="signature" data-config="assinatura">Com carinho, do seu amigo que num tem pressa.</p>
+      </div>
+    </section>
+
+    <section class="section daily" id="do-dia">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Todo dia um causo</p>
+          <h2>O versículo do dia</h2>
+        </div>
+        <button class="btn btn-small" id="daily-random" type="button">Outro causo, uai</button>
+      </div>
+      <article class="daily-card" aria-live="polite">
+        <div class="daily-meta">
+          <span id="daily-date">hoje</span>
+          <span class="badge">puxado do céu</span>
+        </div>
+        <blockquote id="daily-text">Puxando o causo…</blockquote>
+        <footer class="daily-footer">
+          <cite id="daily-ref">—</cite>
+          <button class="copy-btn" type="button" id="copy-daily">Copiar versículo</button>
+        </footer>
+      </article>
+    </section>
+
+    <section class="section reader" id="ler">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">A prosa principal</p>
+          <h2>Puxa o banco e escolhe o causo</h2>
+        </div>
+        <div class="reader-controls">
+          <label class="field">
+            <span>Livro</span>
+            <select id="book-select"></select>
+          </label>
+          <label class="field">
+            <span>Capítulo</span>
+            <select id="chapter-select"></select>
+          </label>
+        </div>
+      </div>
+
+      <div class="reader-shell">
+        <div class="reader-head">
+          <div>
+            <p class="reader-eyebrow" id="reader-testament">Antigo Testamento</p>
+            <h3 id="reader-title">Gênesis 1</h3>
+          </div>
+          <div class="reader-actions">
+            <button class="btn btn-small" id="random-verse" type="button">Versículo aleatório</button>
+            <button class="btn btn-small btn-ghost" id="copy-chapter" type="button">Copiar capítulo</button>
+          </div>
+        </div>
+        <div class="verse-list" id="verse-list"></div>
+      </div>
+    </section>
+
+    <section class="section books" id="livros">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">O que tem na sacola</p>
+          <h2>Os livros da edição de bolso</h2>
+        </div>
+        <p class="section-note">Uma seleção de causos pra ler em qualquer canto — inclusive na sala de espera.</p>
+      </div>
+      <div class="book-grid" id="book-grid"></div>
+    </section>
+
+    <section class="about-band" id="sobre">
+      <div class="about section">
+        <div>
+          <p class="eyebrow">Ficha do causo</p>
+          <h2>O que é a Bíblia Uai?</h2>
+          <p>É uma adaptação carinhosa da BCC — Bíblia Clara Contemporânea — para o mineirês, feita pra ser lida sem pressa, com café do lado e pão de queijo na mão.</p>
+          <p>Num é tradução oficial, nem dogma, nem tese. É uma paródia afetuosa, uma forma de matar a saudade e lembrar que a fé também sabe sorrir.</p>
+          <p>Esta edição de bolso reúne <strong>219 versículos</strong> de 19 livros. A ideia é crescer aos poucos, um causo por vez.</p>
+        </div>
+        <div>
+          <p class="eyebrow">De onde veio</p>
+          <h3>Fonte e licença</h3>
+          <p>O texto foi adaptado da <a href="https://github.com/myckwilliam/biblia-clara-contemporanea" target="_blank" rel="noopener">BCC</a>, distribuída sob <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.pt-br" target="_blank" rel="noopener">CC BY-SA 4.0</a>. As adaptações em mineirês também são compartilhadas sob a mesma licença.</p>
+          <p>A BCC deriva da Bíblia Verbum Moderna, que deriva da Bíblia Livre. Atribuição e compartilhamento preservados.</p>
+          <p class="fine">Código do site: MIT. Texto: CC BY-SA 4.0. Feito com café, queijo e fé.</p>
+          <div class="about-actions">
+            <a class="btn btn-small" href="https://github.com/myckwilliam/biblia-uai" target="_blank" rel="noopener">Ver no GitHub</a>
+            <button class="btn btn-small btn-ghost" id="share-site" type="button">Mandar pra alguém</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-brand">
+      <span class="footer-mark" aria-hidden="true">UAI</span>
+      <p>Feito com café, queijo e fé.<br>Uma paródia carinhosa, sem pressa e sem dogma.</p>
+    </div>
+    <p class="footer-small">Bíblia Uai &middot; 2026 &middot; <a href="#inicio">volta pro começo</a></p>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <noscript>
+    <div class="noscript">O site precisa de JavaScript pra puxar os causos. Mas a fé num precisa, não.</div>
+  </noscript>
+
+  <script src="data/biblia.js"></script>
+  <script src="data/at.js"></script>
+  <script src="data/nt.js"></script>
+  <script src="data/config.js"></script>
+  <script src="assets/js/app.js?v=2"></script>
+</body>
+</html>

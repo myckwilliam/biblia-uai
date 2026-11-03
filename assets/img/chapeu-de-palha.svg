@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" role="img" aria-label="Chapéu de palha">
+  <g stroke="#111111" stroke-linejoin="round">
+    <path d="M190 320 C 182 175, 232 88, 320 88 C 408 88, 458 175, 450 320 Z" fill="#F6C453" stroke-width="16"/>
+    <path d="M197 225 C 260 255, 380 255, 443 225 L 446 280 C 380 310, 260 310, 194 280 Z" fill="#6B3E26" stroke-width="12"/>
+    <path d="M35 342 C 80 300, 190 278, 320 278 C 450 278, 560 300, 605 342 C 628 376, 560 430, 320 430 C 80 430, 12 376, 35 342 Z" fill="#E9B949" stroke-width="16"/>
+  </g>
+  <g fill="none" stroke-linecap="round">
+    <path d="M240 190 C 260 170, 275 160, 290 155" stroke="#C98A2E" stroke-width="7" opacity=".6"/>
+    <path d="M350 150 C 370 165, 385 185, 395 210" stroke="#C98A2E" stroke-width="7" opacity=".6"/>
+    <path d="M225 250 C 245 240, 260 237, 280 236" stroke="#C98A2E" stroke-width="7" opacity=".6"/>
+    <path d="M365 235 C 385 240, 400 250, 412 264" stroke="#C98A2E" stroke-width="7" opacity=".6"/>
+    <path d="M110 330 C 140 320, 170 314, 200 310" stroke="#C98A2E" stroke-width="7" opacity=".55"/>
+    <path d="M440 310 C 470 314, 500 320, 530 330" stroke="#C98A2E" stroke-width="7" opacity=".55"/>
+    <path d="M80 362 C 120 352, 150 347, 180 344" stroke="#C98A2E" stroke-width="7" opacity=".55"/>
+    <path d="M460 344 C 490 347, 520 352, 560 362" stroke="#C98A2E" stroke-width="7" opacity=".55"/>
+    <path d="M200 396 C 250 401, 290 403, 320 403" stroke="#C98A2E" stroke-width="7" opacity=".55"/>
+    <path d="M440 396 C 390 401, 350 403, 320 403" stroke="#C98A2E" stroke-width="7" opacity=".55"/>
+    <path d="M120 332 C 180 308, 250 296, 320 294" stroke="#FFE8A3" stroke-width="10" opacity=".75"/>
+    <path d="M240 170 C 258 138, 285 118, 312 110" stroke="#FFE8A3" stroke-width="10" opacity=".8"/>
+    <path d="M210 266 C 270 290, 370 290, 430 266" stroke="#8B5A3C" stroke-width="6" opacity=".8"/>
+  </g>
+</svg>
