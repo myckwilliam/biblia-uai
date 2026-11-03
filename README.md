@@ -6,7 +6,8 @@ Uma edição de bolso em mineirês, feita de presente pra uma amiga mineira que 
 
 ![Capa da Bíblia Uai](assets/img/og.png)
 
-**Site:** https://myckwilliam.github.io/biblia-uai/  
+**Site:** https://biblia-uai.vercel.app/  
+**Espelho:** https://myckwilliam.github.io/biblia-uai/  
 **Edição:** 219 versículos · 19 livros · 28 capítulos
 
 ## Amostra
@@ -82,6 +83,13 @@ node scripts/expandir.mjs \
 O script lê o capítulo da BCC, monta o prompt com o guia de estilo, chama `opencode run` e salva o resultado em `data/gerado/`. Depois é só copiar o array de versículos pro livro certo em `data/at.js` ou `data/nt.js` e atualizar a contagem no `index.html` e neste README.
 
 As regras de voz estão em [`ESTILO.md`](ESTILO.md). Vale ler antes de expandir.
+
+## Deploy
+
+- **Vercel:** projeto `biblia-uai` conectado ao repositório; cada push na `main` gera uma produção nova em https://biblia-uai.vercel.app/.
+- **GitHub Pages:** espelho publicado a partir da raiz da `main` em https://myckwilliam.github.io/biblia-uai/.
+
+O site é estático: não tem build, dependências nem variáveis de ambiente.
 
 ## Licença e atribuição
 
