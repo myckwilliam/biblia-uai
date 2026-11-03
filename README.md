@@ -92,4 +92,10 @@ O texto foi adaptado da **BCC — Bíblia Clara Contemporânea**, distribuída s
 
 Esta é uma paródia afetuosa, não uma tradução oficial. Não há vínculo com a BCC, com a BVM ou com a Bíblia Livre.
 
+## Créditos
+
+- **Texto:** adaptação da BCC, com atribuição e share-alike preservados.
+- **Stickers:** chapéu de palha e pão de queijo desenhados para este projeto em SVG e exportados em PNG com fundo transparente.
+- **Tipografia:** Archivo Black, Space Grotesk e IBM Plex Mono (Google Fonts).
+
 Feito com café, queijo e fé. Uai.
